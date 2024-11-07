@@ -1,0 +1,143 @@
+body{ 
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(189, 117, 117, 0.028) 0%, rgb(68, 152, 173) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #todo-container{
+   background-color: rgb(46, 129, 117);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #18285a;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+ 
+  
+  #input-box{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+   
+  #input-button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    background-color: #9feffa;
+    border-radius: 50%;
+    justify-content: center;
+
+    
+
+    /*width: 50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    outline: none;*/
+  }
+  
+  .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+
+  
+  hr{
+    border: 1px solid #18285a;
+  }
+  
+  #header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1{
+    margin-bottom: 20px; 
+  }
+  
+  #input-button:hover {
+    background-color: #9eb7fd; 
+  } 
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn, .delete-btn, .complete-btn{
+    float: right;
+    color:crimson;
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;  
+  } 
+
+  
+/*
+    .icons img{
+      height: 20px;
+     
+      
+      cursor: pointer;
+    }
+
+   #edit{
+    margin: -6px 3px 3px 4px;
+    height: 20px;
+    
+    }
+
+    #delete{
+      margin-right:5px 10px 5px 175px;
+      margin-left: 3px  5px  ;
+      
+    */
+  
+  
+  .completed {
+    text-decoration: line-through;
+    color: rgb(193, 119, 119);
+    border: 1px solid gray;
+  }
+
+  #img{
+    margin: -6px 3px 3px 4px;
+    height: 20px;
+  }
+  
