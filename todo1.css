@@ -37,20 +37,6 @@ body{
     background-color: #9feffa;
     border-radius: 50%;
     justify-content: center;
-
-    
-
-    /*width: 50px;
-    height:50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: purple;
-    color: aqua;
-    font-size: 30px;
-    font-weight: bold;
-    outline: none;*/
   }
   
   .task button{
@@ -108,29 +94,7 @@ body{
     background: none;  
   } 
 
-  
-/*
-    .icons img{
-      height: 20px;
-     
-      
-      cursor: pointer;
-    }
-
-   #edit{
-    margin: -6px 3px 3px 4px;
-    height: 20px;
-    
-    }
-
-    #delete{
-      margin-right:5px 10px 5px 175px;
-      margin-left: 3px  5px  ;
-      
-    */
-  
-  
-  .completed {
+.completed {
     text-decoration: line-through;
     color: rgb(193, 119, 119);
     border: 1px solid gray;
